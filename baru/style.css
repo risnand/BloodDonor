@@ -1,0 +1,159 @@
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none;
+}
+
+html {
+    font-size: 85%;
+    overflow-x: hidden;
+    scroll-padding-top: 60px;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: red;
+    padding: 8px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+}
+
+header .logo {
+    font-size: 25px;
+    color: black;
+    float: left;
+    font-weight: 600;
+}
+
+header .navbar:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+header .navbar a {
+    font-size: 17px;
+    color: black;
+    margin: 0 1px;
+}
+
+
+header .navbar ul li {
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+header p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.home {
+    float:left;
+    width: 50%;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+
+.home h2 {
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    background-color: red;
+}
+
+.home h3 {
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.home select {
+    margin-top: 10px;
+    padding: 3px;
+    font-size: 16px;
+    margin-left: 20px;
+    padding-right: 200px;
+}
+
+
+
+.daftar-riwayat {
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+
+.daftar-kegiatan {
+    width: 45%;
+    float:right;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.judul-riwayat {
+    border: 1px solid black;
+
+}
+
+table,
+tr,
+.klm,
+td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+table {
+    font-size: 16px;
+    width: 100%;
+}
+
+.nama-tabel {
+    background-color: red;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.formulir {
+    margin-top: 100px;
+    border: 0.5px solid silver;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.formulir .judul-formulir {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.formulir #isi-form {
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.form-control {
+    width: 100%;
+    margin: 12px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
