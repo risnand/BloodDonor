@@ -1,7 +1,7 @@
 # TB_BasisData_324
 
 <p>Nama  : Anggoro Trio Risnando
-# NIM   : 202010370311324
-# Kelas : BasisData C
+<p>NIM   : 202010370311324
+<p>Kelas : BasisData C
 
-# Pengumpulan Tugas Besar Prograss 4
+<p>Pengumpulan Tugas Besar Prograss 4
