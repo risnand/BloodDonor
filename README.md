@@ -3,5 +3,3 @@
 <p>Nama  : Anggoro Trio Risnando
 <p>NIM   : 202010370311324
 <p>Kelas : BasisData C
-
-<p>Pengumpulan Tugas Besar Prograss 4
